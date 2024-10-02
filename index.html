@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="@import url('https://fonts.googleapis.com/css2?family=Poppins');"
+    />
+    <link
+      rel="stylesheet"
+      href="import url('https://fonts.googleapis.com/css2?family=MuseoModerno');"
+    />
   </head>
   <body>
     <header>
@@ -28,18 +36,30 @@
     <div class="main">
       <form action="">
         <h3>Informações Pessoais</h3>
-        <label for="name">Nome completo (Nome social)*</label><br />
-        <input type="text" name="name" id="name" /><br />
-        <label for="email">Email*</label><br />
-        <input type="email" name="email" id="email" /><br />
-        <label for="cpf">CPF*</label><br />
-        <input type="number" name="cpf" id="cpf" /><br />
-        <label for="number">Telefone*</label><br />
-        <input type="number" name="number" id="number" /><br />
-        <label for="nascimento">Data de Nascimento*</label><br />
-        <input type="date" name="nascimento" id="nascimento" /><br />
-        <label for="pcd">Você possui alguma deficiência?</label><br />
+        <label for="name" class="title">Nome completo (Nome social)*</label
+        ><br />
+        <input type="text" name="name" id="name" class="box" /><br />
+        <label for="email" class="title">Email*</label><br />
+        <input type="email" name="email" id="email" class="box" /><br />
+        <label for="cpf" class="title">CPF*</label><br />
+        <input type="number " name="cpf" id="cpf " class="box" /><br />
+        <p style="font-size: 11px">
+          confira seu cpf antes de salvar, sua conta ficara vínculada <br />
+          a ele e esta informação não poderá ser alterada.
+        </p>
+        <label for="number" class="title">Telefone*</label><br />
+        <input type="number" name="number" id="number" class="box" /><br />
+        <label for="nascimento" class="title">Data de Nascimento*</label><br />
+        <input
+          type="date"
+          name="nascimento"
+          id="nascimento"
+          class="box"
+        /><br />
+        <label for="pcd" class="title">Você possui alguma deficiência?</label
+        ><br />
         <input type="radio" value="" /> Sim <input type="radio" value="" /> Não
+        <div class="pcdmean"></div>
       </form>
     </div>
   </body>
