@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 10%;
+  height: auto;
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+.information {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  color: purple;
+  display: flex;
+  margin: 20px auto;
+  width: 80%;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+aside {
+  background-color: white;
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.main {
+  float: left;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 25px;
+}
